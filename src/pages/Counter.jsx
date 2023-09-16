@@ -1,11 +1,12 @@
-import { useSelector } from "react-redux"
+import CounterResult from "./CounterResult.jsx"
+import CounterButton from "./CounterButton.jsx"
 
 export default function Counter() {
-    const counter = useSelector(state => state.counter)
 
     return (
         <div>
-            <h1 className="text-slate-100 text-3xl">Counter value : {counter.value}</h1>
+            <CounterButton />
+            <CounterResult />
         </div>
     )
 }
