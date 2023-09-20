@@ -1,5 +1,6 @@
 // import Counter from "./pages/Counter/Counter.jsx"
-import Fruity from "./pages/Fruity/Fruity.jsx"
+// import Fruity from "./pages/Fruity/Fruity.jsx" 
+import Users from "./pages/Users/Users.jsx"
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       {/* <Counter /> */}
       
       {/* 2. Fruity app  */}
-      <Fruity />
+      {/* <Fruity /> */}
+      {/* 3. Users  */}
+      <Users />
       </div>
     </div>
   )
