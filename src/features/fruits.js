@@ -19,7 +19,15 @@ const initialState = {
 
 export const fruits = createSlice({
     name: "fruits",
-    initialState
+    initialState,
+    reducers: {
+
+    },
+    extraReducers: {
+        ["fruitsCart/addOne"]: (state, action) => {
+            console.log("Hello from fruits reducer");
+        }
+    }
 })
 
 export default fruits.reducer

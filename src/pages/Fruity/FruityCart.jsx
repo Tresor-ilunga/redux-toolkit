@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 
 export default function FruityCart() {
     const fruityCart = useSelector(state => state.fruitsCart)
-    console.log(fruityCart);
+    // console.log(fruityCart);
 
     return (
         <div className="bg-slate-100 rounded">
